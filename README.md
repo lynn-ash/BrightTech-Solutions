@@ -1,2 +1,55 @@
 # BrightTech-Solutions
 A fictional technical marketing service where companies can sign up to receive assistance with maintaining their brand.
+
+## Overall Project Goals
+* Set up an effective application front-end that is easy for users to navigate and understand the purpose of the project 
+* Save company's credentials in a database when they sign up so that they can simply log in with that same information
+* Create a simple dashboard that display's a company's analytical information
+* Potentially implement an AI chatbot that allows clients to ask any pressing questions
+
+## Target Audience
+This platform is designed for administrative members within a tech company that are looking to receive help in enhancing their business in a variety of different ways.
+The services that BrightTech Solutions would offer include:
+* IT Management
+* Sustainable Tech Consulting
+* Cybersecurity & Risk Management
+* UX/UI Design
+
+## Tech Stack
+* IDE: Visual Studio Code
+* Vite
+* JSX
+* JS
+* HTML
+* CSS
+* AWS
+* OpenAI (if the chatbot is implemented)
+
+## Website Sections (On the Navigation Bar)
+* **Home Page:** Display a brief welcome message and the company's mission.
+  
+* **About Page:** Gives a more detailed description of what BrightTech Solutions is and what it hopes to accomplish.
+  
+* **Services:** Each tab on this page will give a brief description on the four services that companies can choose from.
+  
+* **Contact:** Gives clients and those who are simply curious about the company the opportunity to attach their email and a question/comment they have (this is to focus more on taking information from the application's front-end and saving it in the back-end database).
+  
+* **Get Started:** This page will lead users to the different pricing tiers for BrightTech Solution Services and their respective benefits. By clicking "Get Started" under one of these plans, users will be taken to a sign up form where they will be prompted to enter their company name, email address, full name, create a password, and choose the type of service they would like to receive.
+
+## Milestone Schedule
+**2/13:**
+* Create GitHub repository and push code
+* Create README file containing project details and scope
+* Make website logo, and develop some starter code for each section of the website
+* Record 5-minute video describing the project
+  
+**3/13:**
+* Work on code that will handle AWS API requests
+* Create AWS Lambda function that process information that is received from the API request
+* Create RDS Database that will contain 3 different tables that will contain information from the "Contact", "Get Started" (Sign Up), and "Log In" pages from the website that are entered by the user
+  
+**4/17:**
+* Once all other main objectives are been successfully implemented on time, possibly include an AI chatbot using OpenAI's API
+
+
+
