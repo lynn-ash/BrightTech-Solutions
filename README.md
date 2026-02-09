@@ -23,7 +23,7 @@ The services that BrightTech Solutions would offer include:
 * HTML
 * CSS
 * AWS
-* OpenAI (if the chatbot is implemented)
+* OpenAI (if there is still time to implement a chatbot)
 
 <img width="956" height="505" alt="techStack_image" src="https://github.com/user-attachments/assets/49117191-5943-4987-8792-17cd80d385c0" />
 
