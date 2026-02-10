@@ -15,6 +15,7 @@ nav {
 nav {
   width: 100vw; /* spans the full viewport width */
   margin-left: calc(-50vw + 50%); /* optional trick if it's stuck in a centered layout */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 

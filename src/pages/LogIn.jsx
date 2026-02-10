@@ -8,6 +8,7 @@ function LogIn(){
     return(
         <div>
             <br />
+            
             <form className="logInStylesForm">
                 <h2 className="formTitle">Welcome Back!</h2>
                 <p className="formCaption"><i>Please log in to access dashboard</i></p>
