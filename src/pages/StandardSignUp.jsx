@@ -1,9 +1,26 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/signUpStyles.css';  
+import { useState, useEffect } from 'react';
 
 function StandardSignUp(){
     const location = useLocation();
+
+    
+    const [idNumber, setIDNumber] = useState(null);
+
+    //Generating ID number
+    const generateNumber = () => {
+        const min = 1000;
+        const max = 199999;
+        //Equation that will generate an ID number between the min and max
+        const newID = Math.floor(Math.random() * (max - min + 1)) + min;
+        setIDNumber(newID);
+    };
+
+    useEffect(() => {
+        generateNumber();
+    }, []);
 
     return(
         <div>
@@ -38,6 +55,10 @@ function StandardSignUp(){
                 
                 <br />
 
+                <label for="number" className="formLabels"><b>ID Number: </b> </label>
+                <input id="idNum" name="idNum" type="number" value={idNumber || ''} disabled /> <br />
+
+                <br />
 
                 <label for="service"><b>Service: </b></label>
                 <select name="service" id="serviceStyles">
